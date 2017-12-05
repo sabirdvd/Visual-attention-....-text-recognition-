@@ -241,7 +241,7 @@ def main(saveto, k=5, normalize=False, zero_pad=False,sampling=False, pkl_name=N
             # if more than one output needed change here
             resp_cap=[ r for (r,p) in resp]
             prob=[ p for (r,p) in resp]
-            ## my code  
+           ## my code start here   
            #print('resp_cap')
            #print resp_cap
            #print('prob_before_caps')
