@@ -250,7 +250,7 @@ def main(saveto, k=5, normalize=False, zero_pad=False,sampling=False, pkl_name=N
             def softmax(x):
                 scoreMatExp = np.exp(x- np.max(x))
                 return scoreMatExp / scoreMatExp.sum(0)
-           #  print(softmax(z))  
+            #print(softmax(z))  
             #prob1 = softmax[::-1]
             a = softmax(z)
             prob1 =  a[::-1]
