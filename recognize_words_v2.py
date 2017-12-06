@@ -28,7 +28,7 @@ import numpy as np
 
 
 import sys
-#sys.path.append('/home/a/caffe/python')
+#here#
 import os
 
 
